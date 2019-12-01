@@ -1,36 +1,26 @@
 <html>
-    <link rel="stylesheet" href="/css/styling.css">
-    <head><font size='5' face='Adobe Hebrew' class="regist">Registrasi</font></head>
-    <form><font size='3' face='Adobe Hebrew' class="regist">
-        <table class="regits regist">
-            <tr>
-                <td>Nama</td>
-                <td>:</td>
-                <td><input type="text" name="Nama"></td>
-            </tr>
-            <tr>
-                <td>NIK</td>
-                <td>:</td>
-                <td><input type="number" name="NIK"></td>
-            </tr>
-            <tr>
-                <td>Username</td>
-                <td>:</td>
-                <td><input type="text" name="Username"></td>
-            </tr>
-            <tr>
-                <td>Password</td>
-                <td>:</td>
-                <td><input type="password" name="Password"></td>
-            </tr>
-            <tr>
-                <td>Confirm Password</td>
-                <td>:</td>
-                <td><input type="password" name="Confirm Pass"></td>
-            </tr>
-            <tr>
-                <td><input name="regist-submit" type="submit" class="regist"></td>
-            </tr>
-        </table>
-    </font></form>
+    <head>Registrasi
+        <title>Registrasi</title>
+        <link rel="stylesheet" type="text/css" href="css/css_regist.css">
+    </head>
+    <body>
+        <header>
+            <div class="top">
+                <h1>REGISTRASI</h1>
+            </div>
+            <form>
+                <p>Name</p>
+                <input type="text" name="nama" placeholder="Enter Name">
+                <p>NIK</p>
+                <input type="text" name="nik" placeholder="Enter NIK">
+                <p>Username</p>
+                <input type="text" name="username" placeholder="Enter Username">
+                <p>Password</p>
+                <input type="password" name="password" placeholder="Enter Password">
+                <p>Confirm Password</p>
+                <input type="password" name="confirmpwd" placeholder="Confirm Password">
+                <input type="submit" name="submitreg" class="regist" value="Submit">
+            </form>
+        </header>
+    </body>
 </html>
