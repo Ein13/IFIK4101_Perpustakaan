@@ -12,7 +12,8 @@ header{
 }
 
 .heading{
-    background-color: #000000;
+    background :rgba(0,0,0,0.5)
+    color: #000;
     padding: 50px;
     max-width: fill;
     vertical-align: middle;
