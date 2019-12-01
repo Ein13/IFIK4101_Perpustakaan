@@ -10,10 +10,10 @@ body {
 	margin: 0;
 	padding: 0;
 	line-height: 1.5em;
-	font-family: Verdana, Arial, san-serif;
-	font-size: 11px;
-	color: #ffffff;
-	background: #4b4743;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"Arial, san-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-size: auto;
 }
 
 a:link, a:visited { color: #e6e154; text-decoration: none; font-weight: bold;} 
@@ -52,7 +52,7 @@ img {
 	font-size: 1px;	
 }
 
-.buy_now_button a{
+.pinjam_button a{
 	clear: both;
 	text-align: center;
 	display: block;
@@ -178,8 +178,11 @@ img {
 /* content */
 #templatemo_content {
 	clear: both;
-	width: 920px;
+	width: 940px;
 	padding: 0 20px;
+	background: url("images/home-bg.jpg") no-repeat;
+	background-position: center;
+	background-size: auto;
 }
 
 #templatemo_content #templatemo_content_left {
@@ -260,9 +263,12 @@ img {
 
 #templatemo_content_right h3 {
 	padding: 0;
+	width: 75px;
 	margin: 0 0 20px 0;
 	font-size: 18px;
-	color: #85391f;
+	color: #FFFFFF;
+	background-color: aliceblue;
+	background: rgba(1,1,1,0.5);
 }
 
 #templatemo_content_right ul {
@@ -284,6 +290,8 @@ img {
 #templatemo_content_right p {
 	text-align: justify;
 	padding: 0 0 8px 0;
+	background-color: grey;
+	background: rgba(0,0,0,0.5);
 }
 
 .templatemo_product_box h1 span {
@@ -327,8 +335,8 @@ img {
 	left:500px;
 	
 	clear: both;
-	width: 960px;
-	height: 285px;
+	width: 400px;
+	height: 200px;
 	padding: 0;
 	margin: 0;
 	background: url(images/logox.png) no-repeat;
