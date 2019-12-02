@@ -13,7 +13,7 @@ body{
 
 header{
     width: 320px;
-    height: 630px;
+    height: 660px;
     background: rgba(0,0,0,0.5);
     box-shadow: rgba(0,0,0,0.5);
     color: #ffffff;
@@ -67,6 +67,31 @@ header input[type="submit"]{
 }
 
 header input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+.button{
+    position: absolute;
+    z-index: 500px;
+    top: 91%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    height: 40px;
+    width: 260px;
+    background: #1c8adb;
+    background-size: 100px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.button:hover{
     cursor: pointer;
     background-color: #fff;
     color: #000;
