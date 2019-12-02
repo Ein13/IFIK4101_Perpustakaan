@@ -11,6 +11,15 @@ body{
     background-position: center;
 }
 
+.logo img{
+    position: absolute;
+    width: 230px;
+    height: auto;
+    float: left;
+    top: 7px;
+    left: 5px;
+}
+
 header{
     width: 320px;
     height: 430px;
